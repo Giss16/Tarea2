@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class tarea2{
+public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        String nombres;
+        String profesion;
+        String nacionalidad;
+        System.out.println("Ingrese su nombre completo:");
+        nombres = teclado.nextLine();
+        System.out.println("Ingrese su profesión:");
+        profesion = teclado.nextLine();
+        System.out.println("Ingrese su nacionalidad:");
+        nacionalidad = teclado.nextLine();
+        System.out.println("Nombre: " + nombres);
+        System.out.println("Profesión: " + profesion);
+        System.out.println("Nacionalidad: " + nacionalidad);
+    }
+}
